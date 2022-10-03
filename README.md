@@ -31,7 +31,6 @@ For building and running the application you need:
 1. Endpoint to get balance, overdraft, available withdrawal funds and available ATM cash to dispense: GET "http://localhost:8080/api/v1/balance" with JSON body as example:
 
 ![Screenshot4](https://user-images.githubusercontent.com/11228131/193508803-e305226b-7653-4dc6-883c-da4aec9a46e6.png)
-
 I chose to send bank account and pin in the GET body, cause it is a little safer than sending them as URL parameters.
 
 2. Endpoint accepting cash withdrawal requests: POST "http://localhost:8080/api/v1/withdraw" with JSON body as example:
