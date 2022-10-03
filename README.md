@@ -11,7 +11,7 @@ This project is a simple ATM simulation.
 ## Requirements
 For building and running the application you need:
 - JDK 
-- Lombok
+- Maven
 
 ## Setup
 - Open in your IDE of choice able to run Java (preferably IntellijIDEA), navigate to src/main/java/com.assignment.home.assignment/Application.java to find the main method to run. Project is set to run on port 8089. Language is set to Java 11
